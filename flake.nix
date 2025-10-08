@@ -1,5 +1,5 @@
 {
-  description = "Personal wallpaper collection - tiled patterns";
+  description = "Personal wallpaper collection";
 
   outputs = { self }: {
     # Export all wallpapers
@@ -7,5 +7,6 @@
 
     # Export specific categories
     tiles = ./tiles;
+    landscapes = ./landscapes;
   };
 }
